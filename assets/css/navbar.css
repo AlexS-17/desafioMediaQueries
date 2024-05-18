@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-secondary);
+    padding: 10px 30px;
+}
+
+.navbar__icon {
+    font-size: 30px;
+    color: var(--color-icon);
+    cursor: pointer;
+}
+
+.navbar__title {
+    font-family: 'Star Jedi';
+    font-size: 24px;
+    color: var(--color-tertiary);
+}
+
+.navbar__menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--color-tertiary);
+}

@@ -1,0 +1,34 @@
+.contenido-principal {
+    display: grid;
+    gap: 20px;
+}
+
+.contenido-principal__card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.card__img {
+    width: 100%;
+    height: auto;
+}
+
+.card__title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: var(--color-titles);
+}
+
+.card__btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: solid 1px var(--color-text);
+}
+
+.card__btn:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-tertiary);
+}

@@ -1,0 +1,28 @@
+.container__filtro {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.container__filtro label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.container__filtro_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--color-titles);
+}
+
+.container__filtro-select-wrapper {
+    position: relative;
+}
+
+.container__filtro select {
+    padding: 5px;
+    font-size: 16px;
+    width: 100%; 
+    color: var(--color-titles);
+}

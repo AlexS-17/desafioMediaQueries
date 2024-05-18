@@ -1,0 +1,43 @@
+/* Mobile First */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-principal: #ffffff;
+    --color-secondary: black;
+    --color-tertiary: #ffe926;
+    --color-icon: #79081b;
+    --color-titles: #222222;
+    --color-subtitle: #888;
+    --color-text: #555;
+}
+
+/* Fuente Star Jedi */
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('../fonts/starjedi/Starjhol.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Star Jedi2';
+    src: url('../fonts/starjedi/Starjedi.ttf') format('truetype');
+}
+
+/* Colores */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Define filas: encabezado, contenido y pie de página */
+    background-color: var(--color-principal);
+}
+
+
+

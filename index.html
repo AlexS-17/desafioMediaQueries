@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Wars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/containerPrincipal.css">
+    <link rel="stylesheet" href="./assets/css/filter.css">
+    <link rel="stylesheet" href="./assets/css/card.css">
+    <link rel="stylesheet" href="./assets/css/pagination.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <i class="fa-brands fa-jedi-order navbar__icon"></i>
+        <h1 class="navbar__title">Cake wars</h1>
+        <div class="navbar__menu-icon">☰</div>
+    </header>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+
+        <!-- Filtros -->
+        <div class="container__filtro">
+            <label for="sort" class="container__filtro_title">Ordenar por:</label>
+            <div class="container__filtro-select-wrapper">
+                <select id="sort">
+                    <option value="precio">Precio</option>
+                    <option value="tamaño">Tamaño</option>
+                    <option value="sabor">Sabor</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Contenedor principal -->
+        <main class="contenido-principal">
+
+            <!-- Cards con los pasteles y cupcakes -->
+            <!-- Card 01 -->
+            <div class="contenido-principal__card">
+                <img class="card__img" src="./assets/img/Cake Star Wars Episode VII.jpg" alt="Pastel Star-Wars">
+                <h2 class="card__title">Pastel Star Wars Episodio VII</h2>
+                <button class="card__btn">Ver más</button>
+            </div>
+
+            <!-- Card 02 -->
+            <div class="contenido-principal__card">
+                <img class="card__img" src="./assets/img/Grogu cupcake.jpg" alt="Cupcake Grogu">
+                <h2 class="card__title">Cupcake Grogus</h2>
+                <button class="card__btn">Ver más</button>
+            </div>
+
+            <!-- Card 03 -->
+            <div class="contenido-principal__card">
+                <img class="card__img" src="./assets/img/Darth Vader Cake.jpg" alt="Pastel Darth Vader">
+                <h2 class="card__title">Pastel Darth Vader</h2>
+                <button class="card__btn">Ver más</button>
+            </div>
+
+            <!-- Card 04 -->
+            <div class="contenido-principal__card">
+                <img class="card__img" src="./assets/img/Death Star Cake.jpg" alt="Pastel Estrella de la muerte">
+                <h2 class="card__title">Pastel Estrella de la muerte</h2>
+                <button class="card__btn">Ver más</button>
+            </div>
+
+            <!-- Card 05 -->
+            <div class="contenido-principal__card">
+                <img class="card__img" src="./assets/img/R2D2 Cake.jpg" alt="Pastel R2D2">
+                <h2 class="card__title">Pastel R2-D2</h2>
+                <button class="card__btn">Ver más</button>
+            </div>
+
+            <!-- Card 06 -->
+            <div class="contenido-principal__card">
+                <img class="card__img" src="./assets/img/May the force be with you Cake.jpg" alt="Pastel que la fuerza te acompañe">
+                <h2 class="card__title">Pastel Que la fuerza te acompañe</h2>
+                <button class="card__btn">Ver más</button>
+            </div>
+
+            <!-- Card 07 -->
+            <div class="contenido-principal__card">
+                <img class="card__img" src="./assets/img/Cupcake BB-8.jpg" alt="Cupcake BB-8">
+                <h2 class="card__title">Cupcake BB-8</h2>
+                <button class="card__btn">Ver más</button>
+            </div>
+
+            <!-- Card 08 -->
+            <div class="contenido-principal__card">
+                <img class="card__img" src="./assets/img/BB-8 Cake.jpg" alt="Pastel BB-8">
+                <h2 class="card__title">Pastel BB-8</h2>
+                <button class="card__btn">Ver más</button>
+            </div>
+
+            <div class="pagination">
+                <div class="pagination__page">&lt;</div>
+                <div class="pagination__page">1</div>
+                <div class="pagination__page">2</div>
+                <div class="pagination__page">3</div>
+                <div class="pagination__page">&gt;</div>
+            </div>
+        </main>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <a href="https://www.instagram.com/pixelex_chile/" target="_blank"><i class="fa-brands fa-instagram footer__social-icon"></i></a>
+            <a href="https://www.tiktok.com/@pixelex_chile" target="_blank"><i class="fa-brands fa-tiktok footer__social-icon"></i></a>
+        </div>
+        <p class="footer__description">Desafío Media kueries - 2024</p> /*No le puse la "Q" a queries porque no me la detectaba la fuente que cargué */
+    </footer>
+
+</body>
+
+</html>

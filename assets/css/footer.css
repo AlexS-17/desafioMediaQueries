@@ -1,0 +1,26 @@
+.footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    background-color: var(--color-secondary);
+}
+
+.footer__social-icon {
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px 0;
+    cursor: pointer;
+    color: var(--color-principal);
+}
+
+.footer__social-icon:hover {
+    color: var(--color-tertiary);
+}
+
+.footer__description {
+    font-family: 'Star Jedi2';
+    color: var(--color-tertiary);
+    font-size: 14px;
+    margin: 10px;
+} 
