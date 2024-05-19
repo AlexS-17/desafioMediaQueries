@@ -11,6 +11,7 @@
 }
 
 .container__filtro_title {
+    font-family: 'Star Jedi2';
     font-size: 20px;
     margin-bottom: 10px;
     color: var(--color-titles);

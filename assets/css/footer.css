@@ -24,3 +24,28 @@
     font-size: 14px;
     margin: 10px;
 } 
+
+@media (min-width: 576px) {
+
+    .footer {
+        grid-area: footer;
+        background-color: var(--color-secondary);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px;
+        position fixed;
+    }
+
+    .footer__social-icon {
+        font-size: 20px;        
+    }
+
+    .footer__description {
+        font-size: 11px;
+
+    }
+}
+

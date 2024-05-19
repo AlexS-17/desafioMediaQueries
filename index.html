@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cake Wars</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
-    <link rel="stylesheet" href="./assets/css/containerPrincipal.css">
+    <link rel="stylesheet" href="./assets/css/sidebar.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/filter.css">
+    <link rel="stylesheet" href="./assets/css/containerPrincipal.css">
     <link rel="stylesheet" href="./assets/css/card.css">
     <link rel="stylesheet" href="./assets/css/pagination.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
@@ -23,6 +24,20 @@
         <h1 class="navbar__title">Cake wars</h1>
         <div class="navbar__menu-icon">☰</div>
     </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <nav class="sidebar__nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </aside>
 
     <!-- Contenedor principal -->
     <div class="container">
@@ -99,14 +114,16 @@
                 <button class="card__btn">Ver más</button>
             </div>
 
-            <div class="pagination">
-                <div class="pagination__page">&lt;</div>
-                <div class="pagination__page">1</div>
-                <div class="pagination__page">2</div>
-                <div class="pagination__page">3</div>
-                <div class="pagination__page">&gt;</div>
-            </div>
         </main>
+
+        <!-- Menú de paginación -->
+        <div class="pagination">
+            <div class="pagination__page">&lt;</div>
+            <div class="pagination__page">1</div>
+            <div class="pagination__page">2</div>
+            <div class="pagination__page">3</div>
+            <div class="pagination__page">&gt;</div>
+        </div>
 
     </div>
 
@@ -116,9 +133,9 @@
             <a href="https://www.instagram.com/pixelex_chile/" target="_blank"><i class="fa-brands fa-instagram footer__social-icon"></i></a>
             <a href="https://www.tiktok.com/@pixelex_chile" target="_blank"><i class="fa-brands fa-tiktok footer__social-icon"></i></a>
         </div>
-        <p class="footer__description">Desafío Media kueries - 2024</p> /*No le puse la "Q" a queries porque no me la detectaba la fuente que cargué */
+
+        <p class="footer__description">Desafío Media queries - 2024</p> 
     </footer>
 
 </body>
-
 </html>
